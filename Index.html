@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet"href="style.css"
+  <meta charset="UTF-8">
+    <title>TuteDude – HTML Learning Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <h1>Welcome to <mark>TuteDude</mark></h1>
+
+    <p>
+        Learn <em>modern web development</em> with
+        <strong>simple, practical tutorials</strong>.
+    </p>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#trivia">Trivia</a></li>
+            <li><a href="#extras">Extras</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <figure>
+        <img src="https://via.placeholder.com/800x300" alt="Learning Platform Banner">
+        <figcaption>Empowering learners since 2020</figcaption>
+    </figure>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about">
+        <h2>About TuteDude</h2>
+
+        <article>
+            <p>
+                <strong>TuteDude</strong> is an online learning platform launched in
+                <time datetime="2020">2020</time>.
+                It focuses on practical education in
+                <abbr title="HyperText Markup Language">HTML</abbr>,
+                CSS, and JavaScript.
+            </p>
+        </article>
+
+        <blockquote>
+            “Learning by doing is the best way to master technology.”
+            <cite>– TuteDude Team</cite>
+        </blockquote>
+    </section>
+
+    <!-- ===== MENU SECTION ===== -->
+    <section id="menu">
+        <h2>Learning Menu</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML Basics</td>
+                    <td>4 Weeks</td>
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <th>Modules</th>
+                                <th>Count</th>
+                            </tr>
+                            <tr>
+                                <td>Tags</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>Forms</td>
+                                <td>10</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>CSS Fundamentals</td>
+                    <td>5 Weeks</td>
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <th>Topics</th>
+                                <th>Count</th>
+                            </tr>
+                            <tr>
+                                <td>Layouts</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Animations</td>
+                                <td>6</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">More courses coming soon!</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- ===== TRIVIA SECTION ===== -->
+    <section id="trivia">
+        <h2>Did You Know?</h2>
+
+        <aside>
+            <details>
+                <summary>HTML Trivia</summary>
+                <p>
+                    HTML was first released in
+                    <time datetime="1993">1993</time> by Tim Berners-Lee.
+                </p>
+            </details>
+        </aside>
+    </section>
+
+    <!-- ===== EXTRAS SECTION ===== -->
+    <section id="extras">
+        <h2>Extras</h2>
+
+        <h3>Audio Learning</h3>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+        <h3>Video Tutorial</h3>
+        <video width="320" height="240" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <!-- ===== FEEDBACK FORM ===== -->
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+
+        <form>
+            <fieldset>
+                <legend>User Feedback</legend>
+
+                <label>
+                    Name:
+                    <input type="text" name="name" required>
+                </label>
+                <br><br>
+
+                <label>
+                    Email:
+                    <input type="email" name="email" required>
+                </label>
+                <br><br>
+
+                <label>
+                    Course Interested:
+                    <select name="course">
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+                </label>
+                <br><br>
+
+                <label>
+                    Message:
+                    <textarea name="message" rows="4" cols="40"></textarea>
+                </label>
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <address>
+        Contact us at:
+        <a href="mailto:support@tutedude.com">support@tutedude.com</a>
+    </address>
+
+    <p>
+        &copy;
+        <time datetime="2025">2025</time>
+        TuteDude. All rights reserved.
+    </p>
+</footer>
+
+</body>
+  </html>
